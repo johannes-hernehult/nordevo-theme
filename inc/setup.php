@@ -9,25 +9,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-/**
- * Theme setup.
- */
 function nordevo_setup() {
 	load_theme_textdomain( 'nordevo-theme', NORDEVO_DIR . '/languages' );
 
-	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'html5', array(
-		'search-form',
-		'comment-form',
-		'comment-list',
 		'gallery',
 		'caption',
 		'style',
 		'script',
 	) );
-	add_theme_support( 'customize-selective-refresh-widgets' );
 	add_theme_support( 'wp-block-styles' );
 	add_theme_support( 'align-wide' );
 	add_theme_support( 'responsive-embeds' );
@@ -45,9 +37,6 @@ function nordevo_setup() {
 }
 add_action( 'after_setup_theme', 'nordevo_setup' );
 
-/**
- * Set content width.
- */
 function nordevo_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'nordevo_content_width', 1200 );
 }

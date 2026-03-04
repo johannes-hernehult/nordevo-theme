@@ -15,10 +15,9 @@ get_header();
 			<header class="page-header">
 				<h1 class="page-title"><?php esc_html_e( 'Page not found.', 'nordevo-theme' ); ?></h1>
 			</header>
-
 			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'nordevo-theme' ); ?></p>
-				<?php get_search_form(); ?>
+				<p><?php esc_html_e( 'The page you are looking for does not exist.', 'nordevo-theme' ); ?></p>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Go back home', 'nordevo-theme' ); ?></a>
 			</div>
 		</section>
 

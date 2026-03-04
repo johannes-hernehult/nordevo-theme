@@ -17,4 +17,3 @@ define( 'NORDEVO_URI', get_template_directory_uri() );
 
 require_once NORDEVO_DIR . '/inc/setup.php';
 require_once NORDEVO_DIR . '/inc/enqueue.php';
-require_once NORDEVO_DIR . '/inc/widgets.php';

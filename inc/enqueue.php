@@ -24,9 +24,5 @@ function nordevo_scripts() {
 		NORDEVO_VERSION,
 		true
 	);
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
 }
 add_action( 'wp_enqueue_scripts', 'nordevo_scripts' );
