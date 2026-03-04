@@ -1,1 +1,1 @@
-# A simple Wordpress theme for my firends site.
+# A simple Wordpress theme for my friends site.
