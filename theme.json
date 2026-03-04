@@ -1,0 +1,55 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "defaultPalette": false,
+            "defaultGradients": false,
+            "gradients": [],
+            "palette": [
+                { "slug": "bark-950", "color": "#110D0A", "name": "Bark 950" },
+                { "slug": "bark-900", "color": "#231812", "name": "Bark 900" },
+                { "slug": "bark-800", "color": "#382517", "name": "Bark 800" },
+                { "slug": "bark-700", "color": "#4F351F", "name": "Bark 700" },
+                { "slug": "bark-600", "color": "#664629", "name": "Bark 600" },
+                { "slug": "bark-500", "color": "#7E5836", "name": "Bark 500" },
+                { "slug": "bark-400", "color": "#976C47", "name": "Bark 400" },
+                { "slug": "bark-300", "color": "#AE8560", "name": "Bark 300" },
+                { "slug": "bark-200", "color": "#C8A87E", "name": "Bark 200" },
+                { "slug": "bark-100", "color": "#E2CEB2", "name": "Bark 100" },
+                { "slug": "bark-50",  "color": "#F5EDE3", "name": "Bark 50"  }
+            ]
+        },
+        "spacing": {
+            "defaultSpacingSizes": false,
+            "spacingSizes": [
+                { "slug": "1",  "size": "0.25rem", "name": "1"  },
+                { "slug": "2",  "size": "0.5rem",  "name": "2"  },
+                { "slug": "3",  "size": "0.75rem", "name": "3"  },
+                { "slug": "4",  "size": "1rem",    "name": "4"  },
+                { "slug": "6",  "size": "1.5rem",  "name": "6"  },
+                { "slug": "8",  "size": "2rem",    "name": "8"  },
+                { "slug": "12", "size": "3rem",    "name": "12" },
+                { "slug": "16", "size": "4rem",    "name": "16" }
+            ],
+            "units": [ "px", "rem", "em", "%" ]
+        },
+        "typography": {
+            "defaultFontSizes": false,
+            "fontSizes": [
+                { "slug": "xs",  "size": "0.75rem",  "name": "XS"  },
+                { "slug": "sm",  "size": "0.875rem", "name": "SM"  },
+                { "slug": "md",  "size": "1rem",     "name": "MD"  },
+                { "slug": "lg",  "size": "1.125rem", "name": "LG"  },
+                { "slug": "xl",  "size": "1.25rem",  "name": "XL"  },
+                { "slug": "2xl", "size": "1.5rem",   "name": "2XL" },
+                { "slug": "3xl", "size": "1.875rem", "name": "3XL" },
+                { "slug": "4xl", "size": "2.25rem",  "name": "4XL" }
+            ]
+        },
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1400px"
+        }
+    }
+}
