@@ -4,9 +4,14 @@
     padding-block: calc(var(--size-4xl) * 4);
     padding-inline: var(--size-xl);
 }
+
 .nordevo-hero__content {
     position: relative;
     z-index: 2;
+}
+
+.nordevo-hero__content p {
+    font-size: var(--size-xl);
 }
 
 .nordevo-hero__bg-img img {

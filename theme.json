@@ -7,17 +7,17 @@
             "defaultGradients": false,
             "gradients": [],
             "palette": [
-                { "slug": "bark-950", "color": "#110D0A", "name": "Bark 950" },
-                { "slug": "bark-900", "color": "#231812", "name": "Bark 900" },
-                { "slug": "bark-800", "color": "#382517", "name": "Bark 800" },
-                { "slug": "bark-700", "color": "#4F351F", "name": "Bark 700" },
-                { "slug": "bark-600", "color": "#664629", "name": "Bark 600" },
-                { "slug": "bark-500", "color": "#7E5836", "name": "Bark 500" },
-                { "slug": "bark-400", "color": "#976C47", "name": "Bark 400" },
-                { "slug": "bark-300", "color": "#AE8560", "name": "Bark 300" },
-                { "slug": "bark-200", "color": "#C8A87E", "name": "Bark 200" },
-                { "slug": "bark-100", "color": "#E2CEB2", "name": "Bark 100" },
-                { "slug": "bark-50",  "color": "#F5EDE3", "name": "Bark 50"  }
+                { "slug": "nord-950", "color": "#0b1622", "name": "Nord 950" },
+                { "slug": "nord-900", "color": "#14283e", "name": "Nord 900" },
+                { "slug": "nord-800", "color": "#23364a", "name": "Nord 800" },
+                { "slug": "nord-700", "color": "#334457", "name": "Nord 700" },
+                { "slug": "nord-600", "color": "#425263", "name": "Nord 600" },
+                { "slug": "nord-500", "color": "#586e82", "name": "Nord 500" },
+                { "slug": "nord-400", "color": "#6e8aa1", "name": "Nord 400" },
+                { "slug": "nord-300", "color": "#85a7c1", "name": "Nord 300" },
+                { "slug": "nord-200", "color": "#9bc3e0", "name": "Nord 200" },
+                { "slug": "nord-100", "color": "#b1dfff", "name": "Nord 100" },
+                { "slug": "nord-50",  "color": "#e0f2ff", "name": "Nord 50"  }
             ]
         },
         "spacing": {
