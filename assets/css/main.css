@@ -277,6 +277,13 @@ p:last-child {
     margin-inline: 0;
 }
 
+@media (max-width: 768px) {
+    .entry-content {
+        gap: calc(var(--size-4xl) * 3);
+        padding-bottom: var(--space-4);
+    }
+}
+
 /* --------------------------------------------------------------------------
    Page Header
    -------------------------------------------------------------------------- */

@@ -16,6 +16,8 @@
 
 .nordevo-hero__content p {
     font-size: var(--size-xl);
+    font-weight: 500;
+    line-height: 1.75;
 }
 
 .nordevo-hero__bg-img img {
@@ -28,6 +30,12 @@
     z-index: 1;
     opacity: 0.33;
     min-height: 250px;
+}
+
+@media (max-width: 768px) {
+    .nordevo-hero {
+        padding-block: calc(var(--size-4xl) * 2);
+    }
 }
 
 /*
