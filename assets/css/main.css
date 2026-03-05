@@ -176,6 +176,10 @@ p:last-child {
     margin-bottom: 0;
 }
 
+blockquote.wp-block-quote {
+    margin: 0;
+}
+
 /* --------------------------------------------------------------------------
    Layout
    -------------------------------------------------------------------------- */
@@ -252,7 +256,7 @@ p:last-child {
 .entry-content {
     display: flex;
     flex-wrap: wrap;
-    gap: calc(var(--size-4xl) * 5);
+    gap: calc(var(--size-4xl) * 3);
     padding-bottom: var(--space-8);
 }
 

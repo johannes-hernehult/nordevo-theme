@@ -11,6 +11,7 @@
 }
 
 .nordevo-services {
+    padding-block: calc(var(--size-4xl) * 2);
 }
 
 .nordevo-videos {
@@ -20,6 +21,7 @@
 }
 
 .nordevo-testimonials {
+    padding-block: calc(var(--size-4xl) * 2);
 }
 
 .nordevo-contact {
