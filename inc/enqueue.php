@@ -36,5 +36,6 @@ function nordevo_scripts()
 add_action("wp_enqueue_scripts", "nordevo_scripts");
 
 add_action("after_setup_theme", function () {
+    add_editor_style("assets/css/main.css");
     add_editor_style("assets/css/content.css");
 });
