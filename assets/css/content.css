@@ -2,6 +2,7 @@
     position: relative;
     margin-top: -57.6px;
     padding-block: calc(var(--size-4xl) * 4);
+    padding-inline: var(--size-xl);
 }
 .nordevo-hero__content {
     position: relative;
