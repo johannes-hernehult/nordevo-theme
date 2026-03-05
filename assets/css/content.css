@@ -1,25 +1,23 @@
 .nordevo-hero {
     position: relative;
-
     margin-top: -57.6px;
-
     padding-block: calc(var(--size-4xl) * 4);
+}
+.nordevo-hero__content {
+    position: relative;
+    z-index: 2;
+}
 
-    img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 0;
-        opacity: 0.5;
-    }
-
-    .nordevo-hero__content {
-        position: relative;
-        z-index: 1;
-    }
+.nordevo-hero__bg-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.5;
+    min-height: 250px;
 }
 
 .nordevo-about {
