@@ -8,9 +8,9 @@
 :root {
     /* Colors — values defined in theme.json */
     --color-bg: var(--wp--preset--color--nord-900);
-    --color-text: var(--wp--preset--color--nord-100);
+    --color-text: var(--wp--preset--color--nord-50);
     --color-text-muted: var(--wp--preset--color--nord-300);
-    --color-primary: var(--wp--preset--color--nord-600);
+    --color-primary: var(--wp--preset--color--nord-300);
     --color-primary-h: var(--wp--preset--color--nord-800);
     --color-surface: var(--wp--preset--color--nord-800);
 
@@ -64,13 +64,13 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--color-bg);
-    color: var(--color-text);
     font-family: var(--font-base);
     font-size: var(--size-md);
     line-height: 2;
     letter-spacing: 1px;
     word-spacing: 3px;
+    color: var(--color-text);
+    background-color: var(--color-bg);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -82,14 +82,25 @@ video {
     height: auto;
 }
 
-.wp-block-button {
-    a,
-    button {
-        border-radius: 0;
-        background-color: transparent;
-        border: 2px solid var(--color-text);
-        color: var(--color-text);
-    }
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+.wp-block-button a,
+.wp-block-button button {
+    border: 2px solid var(--color-primary);
+    border-radius: 0;
+    padding-block: var(--size-sm);
+    background-color: transparent;
+    color: var(--color-primary);
+    line-height: 1;
+    transition: var(--transition);
+}
+
+.wp-block-button:hover a,
+.wp-block-button:hover button {
+    border-color: var(--color-text);
+    background-color: var(--color-text);
+    color: var(--color-bg);
 }
 
 /* --------------------------------------------------------------------------
@@ -101,10 +112,10 @@ h3,
 h4,
 h5,
 h6 {
+    margin: 0 0 var(--space-4);
     font-family: var(--font-heading);
     font-weight: 700;
     line-height: 1.2;
-    margin: 0 0 var(--space-4);
     color: var(--color-text);
 }
 
@@ -160,10 +171,10 @@ p:last-child {
    Header
    -------------------------------------------------------------------------- */
 .site-header {
-    background-color: transparent;
     position: sticky;
     top: 0;
     z-index: 100;
+    background-color: transparent;
 }
 
 .site-header__inner {
@@ -180,9 +191,9 @@ p:last-child {
 }
 
 .site-title {
+    margin: 0;
     font-size: var(--size-xl);
     font-weight: 700;
-    margin: 0;
 }
 
 .site-title a {
@@ -195,35 +206,33 @@ p:last-child {
 }
 
 .site-description {
+    margin: 0;
     font-size: var(--size-sm);
     color: var(--color-text-muted);
-    margin: 0;
 }
 
 .site-logo img {
-    height: 40px;
     width: auto;
+    height: 40px;
 }
 
 /* --------------------------------------------------------------------------
    Page Entry
    -------------------------------------------------------------------------- */
 .entry-content {
-    padding-bottom: var(--space-8);
-
     display: flex;
     flex-wrap: wrap;
     gap: calc(var(--size-4xl) * 5);
+    padding-bottom: var(--space-8);
 }
 
 /* Default block width — matches container */
 .entry-content > * {
+    flex-basis: 100%;
     max-width: var(--container-max);
     margin-inline: auto;
     padding-inline: var(--container-pad);
     box-sizing: border-box;
-
-    flex-basis: 100%;
 }
 
 /* Wide alignment — slightly wider than container */
@@ -260,15 +269,15 @@ p:last-child {
    Footer
    -------------------------------------------------------------------------- */
 .site-footer {
-    background-color: var(--color-surface);
     padding-block: var(--space-4);
+    background-color: var(--color-surface);
 }
 
 .site-footer__bottom {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: var(--space-4);
     font-size: var(--size-sm);
     color: var(--color-text-muted);
@@ -287,6 +296,7 @@ p:last-child {
     .page-title {
         font-size: var(--size-3xl);
     }
+
     h2 {
         font-size: var(--size-2xl);
     }
@@ -300,7 +310,3 @@ p:last-child {
         text-align: center;
     }
 }
-
-/* --------------------------------------------------------------------------
-Custom CSS
-   -------------------------------------------------------------------------- */
