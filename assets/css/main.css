@@ -14,7 +14,7 @@
     --color-primary-h: var(--wp--preset--color--nord-800);
     --color-surface: var(--wp--preset--color--nord-800);
 
-    --font-base: system-ui, Roboto, sans-serif;
+    --font-base: "Montserrat", sans-serif;
     --font-heading: var(--font-base);
 
     --size-xs: 0.75rem;
