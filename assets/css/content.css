@@ -1,8 +1,12 @@
+/*
+    Hero
+*/
 .nordevo-hero {
     position: relative;
-    margin-top: -57.6px;
-    padding-block: calc(var(--size-4xl) * 4);
+    margin-top: -64px;
+    padding-block: calc(var(--size-4xl) * 5);
     padding-inline: var(--size-xl);
+    box-shadow: inset 0 0 10rem 20rem #00000080;
 }
 
 .nordevo-hero__content {
@@ -22,24 +26,42 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.33;
     min-height: 250px;
 }
 
+/*
+    About
+*/
 .nordevo-about {
 }
 
+/*
+    Services
+*/
 .nordevo-services {
 }
 
+/*
+    Videos
+*/
 .nordevo-videos {
 }
 
+/*
+    Photos
+*/
 .nordevo-photos {
 }
 
+/*
+    Testimonials
+*/
 .nordevo-testimonials {
 }
 
+/*
+    Contact
+*/
 .nordevo-contact {
 }
