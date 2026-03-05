@@ -24,3 +24,8 @@
 
 .nordevo-contact {
 }
+
+.is-root-container.wp-block-post-content
+    > *:not(.is-root-container.wp-block-post-content *:last-of-type) {
+    margin-bottom: 8rem;
+}

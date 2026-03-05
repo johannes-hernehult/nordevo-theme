@@ -86,21 +86,52 @@ video {
    Buttons
    -------------------------------------------------------------------------- */
 .wp-block-button a,
-.wp-block-button button {
+.wp-block-button button,
+button[type="submit"] {
+    font: initial;
+    font-family: var(--font-base);
     border: 2px solid var(--color-primary);
     border-radius: 0;
-    padding-block: var(--size-sm);
+    padding: var(--size-sm) var(--size-xl);
     background-color: transparent;
     color: var(--color-primary);
     line-height: 1;
     transition: var(--transition);
+    font-weight: 600;
 }
 
 .wp-block-button:hover a,
-.wp-block-button:hover button {
+.wp-block-button:hover button,
+button[type="submit"]:hover {
     border-color: var(--color-text);
     background-color: var(--color-text);
     color: var(--color-bg);
+}
+
+/* --------------------------------------------------------------------------
+Forms
+   -------------------------------------------------------------------------- */
+
+.fluentform form {
+    .ff-el-group {
+        margin: 0 0 var(--size-lg);
+    }
+
+    .ff-el-input--label {
+        margin: 0;
+    }
+}
+
+input,
+textarea,
+select {
+    font: inherit;
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-primary);
+    padding-inline: var(--size-xs);
+    padding-block: var(--size-xs);
+    line-height: 1;
+    color: var(--color-text);
 }
 
 /* --------------------------------------------------------------------------
