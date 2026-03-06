@@ -43,6 +43,12 @@
     About
 */
 .nordevo-about {
+    .wp-block-image,
+    img {
+        margin: 0;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 /*
