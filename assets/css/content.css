@@ -93,4 +93,5 @@
     Contact
 */
 .nordevo-contact {
+    padding-block: calc(var(--size-4xl) * 3);
 }
