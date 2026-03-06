@@ -56,6 +56,10 @@
 */
 .nordevo-services {
     padding-block: calc(var(--size-4xl) * 3);
+
+    li {
+        list-style: none;
+    }
 }
 
 /*
